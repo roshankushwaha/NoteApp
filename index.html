@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>note Taking App</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Search Container -->
+           <div class="search">
+            <img src="./Assets/SearchIcon.png"  height="20px" width="20px"/>
+            <input type="text" placeholder="Search Notes..."/>
+           </div>
+            <!-- NavBar  -->
+            <div class="navbar">
+
+               <div class="navbar-left">
+                    <div style="background: #68bcff;" class="left-btn-container all-container">
+                        <button style="color: white;" class="all btn">All</button>
+                    </div>
+                    <div class="left-btn-container home-container">
+                        <button class="home btn"> Home</button>
+                        <div style="background: #fe9202;" class="dot"></div>
+                    </div>
+                    <div class="left-btn-container work-container">
+                        <button class="work btn">Work</button>
+                        <div style="background: #5c6ac0;" class="dot"></div>
+                    </div>
+                    <div class="left-btn-container personal-container">
+                        <button class="personal btn">Personal</button>
+                        <div style="background: #66ba69;" class="dot"></div>
+                    </div>
+                </div>
+
+               <div class="navbar-right">
+                <button class=" btn add-note">+ ADD NOTE</button>
+               </div>
+               
+            </div>
+
+            <!-- Default Container if no Notes available -->
+            <div class="all-note-default-container">
+                <p>You Dont't have any notes</p>
+                <img src="https://cdn.prod.website-files.com/6273d12007e5fd16f5fcd960/628f861a1d4eeeda9adef9a9_General%20(2).svg"  />
+            </div>
+
+            <!-- Container if Notes contains -->
+            <div class="all-note-container">
+                <div class="progress-bar-container">
+                    <p >you have 0/1 notes completed</p>
+                    <div class="progress-bar"></div>
+                </div>
+                <!-- cards -->
+                <div class="card-container">
+                    <!-- <div class="card"> 
+                        <div class="card-header">
+                            <div class="ckeckbox-title-container">
+                                <input class="complete-checkbox" type="checkbox" class="completed"/>
+                                <p class="card-title"> Meeting with Manager</p>
+                            </div>
+                            <div class="delete-edit-container">
+                                <img class="edit-icon" src="./Assets/editIcon.png" height="20px" width="20px"/>
+                                <img class="delete-icon" src="./Assets/deleteIcon.png" height="20px" width="20px"/>
+                            </div>
+                        </div>
+                        <span class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae similique perferendis omnis provident. Commodi blanditiis nihil nesciunt sapiente provident dolorem expedita repellendus architecto nobis asperiores natus fuga culpa, nam iure?</span>
+                        <div class="note-date-container">
+                            <p class="note-date">Jan 20, 2021</p>
+                        </div>
+                    </div>    -->
+                </div>
+            </div>
+            <!-- Add new Modal -->
+               <div class="add-new-container">
+                    <div class="modal">
+                        <div class="title">
+                            <p class="modal-title"> Add note</p>
+                        </div>
+                        <div class="modal-input">
+                            <div class="input-top">
+                                <input class="title-input-field" type="text" placeholder="Add title..."/>
+                                <div class="category-container">
+                                    <div class="select-category">
+                                        <span class="selected-category">Select category</span>
+                                        <img class="dropdown-icon" src="./Assets/dropDown.svg"  height="10px" width="10px" /> 
+                                    </div>
+                                    <div class="category-options">
+                                        <ul>
+                                            <li class="category-home" >Home</li>
+                                            <li class="category-work">Work</li>
+                                            <li class="category-personal">Personal</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <textarea class="note-description" cols="6" placeholder="Add description..."></textarea>
+                        </div>
+                        <div class="note-buttons">
+                            <button class="cancel">Cancel</button>
+                            <button class="add">ADD</button>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="./script.js"/>
+</body>
+</html>
