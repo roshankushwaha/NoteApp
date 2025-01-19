@@ -1,6 +1,6 @@
 # NoteApp
 
-A simple and efficient NoteApp built using pure **HTML**, **CSS**, and **JavaScript**. This application allows users to manage their notes with ease, and is fully responsive using **media queries** to ensure a smooth experience on all devices.
+A simple and efficient NoteApp built using pure **HTML**, **CSS**, and **JavaScript**.
 
 ## Features
 - Add new notes.
