@@ -89,32 +89,32 @@ category.addEventListener('click', () => setCategoryToggle(true));
 const allNotes = [
     {
       "id": 1,
-      "title": "Task Title 1",
-      "description": "This is the description for task 1",
-      "category": "home",
-      "date":"Jan 20, 2023"
+      "title": "Fix Bug in Login Feature",
+      "description": "Investigate and resolve the issue causing users to get stuck on the login page. Reproduce the bug locally, analyze the logs, and debug the authentication module. Write unit tests after fixing. Discuss changes with the team during the daily standup.",
+      "category": "work",
+      "date": "2025-01-16"
     },
     {
       "id": 2,
-      "title": "Task Title 2",
-      "description": "This is the description for task 2",
-      "category": "work",
-      "date":"Jan 20, 2023"
+      "title": "Morning Gym Session",
+      "description": "Follow the routine: a 10-minute jog on the treadmill, chest and triceps workout with dumbbells, and finish with stretching. Pack a water bottle and protein shake for post-workout recovery.",
+      "category": "personal",
+      "date": "2025-01-16"
     },
     {
       "id": 3,
-      "title": "Task Title 3",
-      "description": "This is the description for task 3",
-      "category": "personal",
-      "date":"Jan 20, 2023"
+      "title": "Buy Vegetables from Local Market",
+      "description": "Visit the sabzi mandi early to buy fresh potatoes, onions, green chilies, and coriander. Compare prices at different stalls and bargain where possible. Bring enough cloth bags to avoid using plastic.",
+      "category": "home",
+      "date": "2025-01-17"
     },
     {
-      "id": 4,
-      "title": "Task Title 4",
-      "description": "This is the description for task 4",
+      "id": 5,
+      "title": "Complete Backend API Integration",
+      "description": "Integrate the product listing API with the frontend. Ensure that API calls are optimized for slow network conditions and handle edge cases. Prepare a demo for the next sprint review.",
       "category": "work",
-      "date":"Jan 20, 2023"
-    },
+      "date": "2025-01-19"
+    }
   ]
 
   
